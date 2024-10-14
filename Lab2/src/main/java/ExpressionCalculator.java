@@ -12,9 +12,7 @@ import java.util.Random;
 public class ExpressionCalculator extends JFrame {
     public ExpressionCalculator(String title) {
         super(title);
-        // Создание набора данных
         XYSeriesCollection dataset = createDataset();
-        // Создание графика
         JFreeChart chart = ChartFactory.createXYLineChart(
                 "Графік функції",
                 "x",
